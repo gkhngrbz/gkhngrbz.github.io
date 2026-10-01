@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colorings Support</title>
+<meta name="description" content="Help and contact for Colorings, a coloring app for young children.">
+<style>
+  :root { --bg: #FFF8EC; --surface: #FFFFFF; --text: #2A2A3A; --muted: #5D5D70; --accent: #3B6FE0; --border: #EADFCB; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #17171F; --surface: #22222C; --text: #ECECF2; --muted: #B4B4C3; --accent: #8FB0FF; --border: #34343F; }
+  }
+  :root[data-theme="dark"] { --bg: #17171F; --surface: #22222C; --text: #ECECF2; --muted: #B4B4C3; --accent: #8FB0FF; --border: #34343F; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .brand { font-weight: 800; font-size: 20px; }
+  nav.lang { display: flex; gap: 6px; }
+  nav.lang a { display: inline-block; min-width: 44px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); color: var(--text); text-decoration: none; text-align: center; font-size: 15px; }
+  nav.lang a[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 16px 0 4px; }
+  h2 { font-size: 20px; margin: 28px 0 6px; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0 0 20px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <div class="brand">Colorings</div>
+    <nav class="lang" aria-label="Language / Dil">
+      <a href="#en" data-lang="en" hreflang="en" lang="en">English</a>
+      <a href="#tr" data-lang="tr" hreflang="tr" lang="tr">Türkçe</a>
+    </nav>
+  </header>
+
+  <article id="en" lang="en">
+    <h1>Support</h1>
+    <p class="meta">Colorings: Kids Coloring Book</p>
+
+    <div class="card">
+      <strong>Contact us</strong>
+      <p>Email <a href="mailto:gonixapps@gmail.com">gonixapps@gmail.com</a>. We aim to reply within a few days. Please tell us your device model and what happened.</p>
+    </div>
+
+    <h2>How does my child color a picture?</h2>
+    <p>Pick a color, then tap an area to fill it. The crayon draws freehand, and the eraser removes color. Tap the green check mark when the picture is finished.</p>
+
+    <h2>Where are the pictures saved?</h2>
+    <p>Every picture saves automatically on your device and appears in My Art. Pictures are not uploaded anywhere. Deleting the app deletes them.</p>
+
+    <h2>Why are some pictures locked?</h2>
+    <p>Five pictures in each category are always free, and there is a new free picture every day. Other pictures unlock when your child chooses to watch a short video. Nothing in the app can be bought.</p>
+
+    <h2>What is the “Ask a grown-up” question?</h2>
+    <p>The Parent area and sharing are behind a simple multiplication question so that young children do not open them by accident.</p>
+
+    <h2>How do I change the language, sound or vibration?</h2>
+    <p>Tap the gear on the home screen, answer the grown-up question, and use the settings at the top of the Parent area. The app is available in English and Turkish.</p>
+
+    <h2>How do I delete my child’s pictures or progress?</h2>
+    <p>In the Parent area, choose <em>Delete all artwork</em> or <em>Reset stars and unlocks</em>.</p>
+
+    <h2>A video will not load</h2>
+    <p>Videos need an internet connection, and sometimes none is available. Everything else in the app works offline. Try again a little later.</p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="../privacy/">Privacy Policy</a>.</p>
+  </article>
+
+  <hr>
+
+  <article id="tr" lang="tr">
+    <h1>Destek</h1>
+    <p class="meta">Colorings: Kids Coloring Book</p>
+
+    <div class="card">
+      <strong>Bize ulaşın</strong>
+      <p><a href="mailto:gonixapps@gmail.com">gonixapps@gmail.com</a> adresine e-posta gönderin. Birkaç gün içinde yanıtlamaya çalışırız. Lütfen cihaz modelinizi ve ne olduğunu yazın.</p>
+    </div>
+
+    <h2>Çocuğum bir resmi nasıl boyar?</h2>
+    <p>Bir renk seçin, sonra doldurmak istediğiniz alana dokunun. Kalem serbest çizer, silgi rengi kaldırır. Resim bitince yeşil onay işaretine dokunun.</p>
+
+    <h2>Resimler nereye kaydediliyor?</h2>
+    <p>Her resim cihazınıza otomatik olarak kaydedilir ve Resimlerim bölümünde görünür. Resimler hiçbir yere yüklenmez. Uygulamayı silmek resimleri de siler.</p>
+
+    <h2>Bazı resimler neden kilitli?</h2>
+    <p>Her kategoride beş resim her zaman ücretsizdir ve her gün yeni bir ücretsiz resim vardır. Diğer resimler, çocuğunuz kısa bir video izlemeyi seçtiğinde açılır. Uygulamada hiçbir şey satın alınamaz.</p>
+
+    <h2>“Bir büyüğüne sor” sorusu nedir?</h2>
+    <p>Ebeveyn alanı ve paylaşma, küçük çocuklar yanlışlıkla açmasın diye basit bir çarpma sorusunun arkasındadır.</p>
+
+    <h2>Dili, sesi ya da titreşimi nasıl değiştiririm?</h2>
+    <p>Ana ekrandaki dişliye dokunun, büyük sorusunu yanıtlayın ve Ebeveyn alanının üstündeki ayarları kullanın. Uygulama Türkçe ve İngilizce olarak kullanılabilir.</p>
+
+    <h2>Çocuğumun resimlerini ya da ilerlemesini nasıl silerim?</h2>
+    <p>Ebeveyn alanında <em>Tüm resimleri sil</em> ya da <em>Yıldızları ve kilitleri sıfırla</em> seçeneğini kullanın.</p>
+
+    <h2>Video yüklenmiyor</h2>
+    <p>Videolar internet bağlantısı gerektirir ve bazen gösterilecek video bulunmaz. Uygulamanın geri kalanı çevrimdışı çalışır. Biraz sonra tekrar deneyin.</p>
+
+    <h2>Gizlilik</h2>
+    <p><a href="../privacy/#tr">Gizlilik Politikası</a>’nı okuyun.</p>
+  </article>
+</main>
+<script>
+  // Show one language at a time. Without JavaScript both stay visible.
+  (function () {
+    var langs = ['en', 'tr'];
+    function pick() {
+      var hash = (location.hash || '').replace('#', '');
+      if (langs.indexOf(hash) >= 0) return hash;
+      var nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+      return nav.toLowerCase().indexOf('tr') === 0 ? 'tr' : 'en';
+    }
+    function show(lang) {
+      langs.forEach(function (l) { var el = document.getElementById(l); if (el) el.hidden = l !== lang; });
+      var hr = document.querySelector('hr'); if (hr) hr.hidden = true;
+      document.documentElement.lang = lang;
+      document.title = lang === 'tr' ? 'Colorings Destek' : 'Colorings Support';
+      document.querySelectorAll('nav.lang a').forEach(function (a) { a.setAttribute('aria-current', a.getAttribute('data-lang') === lang ? 'true' : 'false'); });
+    }
+    show(pick());
+    window.addEventListener('hashchange', function () { show(pick()); window.scrollTo(0, 0); });
+  })();
+</script>
+</body>
+</html>
